@@ -6,7 +6,7 @@ course=input("Enter Your Course:")
 college=input("Enter Your College:")
 password=input("Enter Your Password:")
 
-#Key_value(pairs)
+#Key_value/pairs
 student={
 "name":name,
 "age":age,
@@ -16,14 +16,7 @@ student={
 "password":password,
 }
 
-skill_1=input("Enter your First Skill:")
-skill_2=input("Enter your Second Skill:")
-skill_3=input("Enter your Third Skill:")
-skill_4=input("Enter your Fourth Skill:")
 
-skills=(skill_1,skill_2,skill_3,skill_4)
-
-print(skills)
 
 print("\n\n\n\n\n\n ===== STUDENT PROFILE =====")
 print(f"Name\t:{name}")
@@ -31,4 +24,3 @@ print(f"Age\t:{age}")
 print(f"Roll No\t:{roll_number}")
 print(f"Course\t:{course}")
 print(f"College\t:{college}")
-
